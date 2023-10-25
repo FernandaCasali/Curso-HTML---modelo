@@ -1,0 +1,151 @@
+		*{
+			margin: 0;
+			border: 0;
+			padding: 0;
+		}
+		html{
+			font-family: arial;
+			font-size: 62.5%;
+		}
+		header{
+			background-color: #000;
+			color: #fff;
+			font-size: 1.8rem;
+			padding: 1rem;
+			padding-top: 2rem;
+			position: fixed;
+			width: 100%;
+		}
+		footer{
+			background-color: #000;
+			color: #fff;
+			font-size: 1.8rem;
+			padding: 1rem;
+		}
+
+		.conteudo{
+			font-size: 1.6rem;
+			background-color: #fff;
+			padding: 1.5rem;
+			text-align: justify;
+			max-width: 95%;
+			margin: 0 auto;
+		}
+		.conteudo-topo{
+			font-size: 1.6rem;
+			background-color: #fff;
+			padding: 1.5rem;
+			text-align: justify;
+			max-width: 95%;
+			margin: 0 auto;
+			padding-top: 10rem;
+		}
+
+		h1{
+			font-size: 2.5rem;
+		}
+		h2{
+			font-size: 1.9;
+		}
+		h3{
+			font-size: 1.7rem;
+		}
+		h4{
+			font-size: 1.6rem;
+		}
+
+		figure{
+			text-align: center;
+		}
+
+		.imagens-site{
+			border-radius: 10px 10px 60px 10px;
+			width: 30%;
+			height: 10%;
+		}
+		@media(min-width: 280px) and (max-width: 820){
+			.imagens-site{
+			border-radius: 10px 10px 60px 10px;
+			width: 90%;
+			height: 70%;
+		}
+		}
+
+		#compras{
+			background-color: #ffff00;
+			width: 150px;
+			height: 100px;
+			right: 0;
+			position: fixed;
+			text-align: center;
+			margin-top: 6rem;
+			z-index: 1;
+		}
+
+		#grid-conteudo{
+			background-color: #dcdcdc;
+		}
+
+		.grid{
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+			grid-gap: 1px;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.grid div{
+			background-color: #fff;
+			text-align: center;
+			padding: 2px;
+		}
+
+		#formulario{
+			background-color: #dcdcdc;
+		}
+
+		input{
+			border: solid;
+			padding: 4px;
+			border-radius: 5px;
+			font-size: 1.8rem;
+		}
+		#mensagem{
+			border: solid;
+			padding: 5px;
+			border-radius: 5px;
+			font-size: 1.8rem;
+		}
+
+		#btn-limpar{
+			background-color: #ff0000;
+			color: #fff;
+			padding: 4px;
+			font-weight: bold;
+			text-align: center;
+			border-radius: 2.5px;
+		}
+		#btn-enviar{
+			background-color: #008000;
+			color: #fff;
+			padding: 4px;
+			font-weight: bold;
+			text-align: center;
+			border-radius: 2.5px;
+		}
+
+		nav{
+			text-align: right;
+			font-size: 1.6rem;
+			word-spacing: 10px;
+			margin-right: 5%;
+			padding-bottom: 5px;
+		}
+		a{
+			text-decoration: none;
+			color: #fff;
+			font-weight: bold;
+		}
+		a:hover{
+			color: #ffff00;
+		}
